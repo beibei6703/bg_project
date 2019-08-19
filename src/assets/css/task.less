@@ -1,0 +1,578 @@
+.task{
+  background-color: #fff;
+  padding: 0 32px;
+  padding-bottom: 32px;
+  .publish {
+    a {
+      color: #333 !important;
+    }
+  }
+  .task-top {
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #e4e7ed;
+    span {
+      float: left;
+      font-size: 14px;
+      color: #909399;
+    }
+     span+span{
+      color: #303133;
+    }
+    .publish {
+      float: right;
+      display: inline-block;
+      width: 100px;
+      height: 32px;
+      line-height: 30px;
+      text-align: center;
+      margin-top: 10px;
+      background-color: #409eff;
+      a{
+        color: #fff !important;
+      }
+    }
+  }
+
+  .demand {
+    margin-top: 16px;
+    height: 40px;
+    padding: 30px 40px;
+    background-color: #F4F4F4;
+    .demand-left, .demand-right {
+      float: left;
+      input {
+        margin-left: 8px;
+        width: 200px;
+        height: 36px;
+        padding-left: 10px;
+        color: rgba(136, 136, 136, 1);
+        font-size: 14px;
+        text-align: left;
+        border: 1px solid #dcdfe6;
+        border-radius: 5px;
+      }
+    }
+    .demand-right {
+      margin-left: 40px;
+      margin-right: 100px;
+    }
+    button {
+      width: 70px;
+      height: 36px;
+      border: 1px solid #BBBBBB;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+  }
+
+  .el-tabs__item.is-active {
+    color: #000;
+  }
+
+  .is-active {
+    color: #409eff !important;
+    border-bottom: 2px solid #409eff  !important;
+  }
+}
+h3 {
+  display: inline-block;
+  width: 100px !important;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: middle;
+  a {
+    color: #303133 !important;
+  }
+}
+.task_1,.task_2,.task_3,.task_4,.task_5{
+  .time {
+    color: rgba(121, 121, 121, 1);
+    font-size: 12px;
+    margin-right: 20px;
+  }
+  dt{
+    font-size: 14px !important;
+    line-height: 26px !important;
+    .order{
+      font-size: 14px !important;
+    }
+  }
+}
+
+//已发布
+.task_1{
+  .el-pagination {
+    margin-top: 130px;
+    text-align: center;
+  }
+
+  /*进行中*/
+  .underway-fz {
+    color: #67C23A;
+  }
+
+  .full-fz {
+    color: #E51C23;
+  }
+
+  .over-fz {
+    color: #909399;
+  }
+
+  .dt-right {
+    float: right;
+    font-size: 14px;
+  }
+
+  .border {
+    border: 1px solid #E6E6E6;
+  }
+
+  .ul {
+    margin-top: 18px;
+    li {
+      margin: 0 auto;
+      height: 120px;
+      padding: 13px 20px;
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+      text-align: left;
+      img {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 18px;
+      }
+      .apply, .underway-number, .achieve {
+        margin-left: 12px;
+        margin-right: 25px;
+      }
+      dd {
+        margin-top: 23px;
+        font-size: 14px;
+        .el-button {
+          display: inline-block;
+          padding: 0;
+          border-radius: 4px;
+          color: rgba(16, 16, 16, 1);
+          font-size: 14px;
+          text-align: center;
+          border: 1px solid rgba(187, 187, 187, 1);
+        }
+        .el-button + .el-button {
+          margin-left: 25px;
+        }
+        .last-botton {
+          width: 104px;
+        }
+      }
+      /*.sort{*/
+      /*color: rgba(16, 16, 16, 1);*/
+      /*font-size: 18px;*/
+      /*}*/
+      dt {
+        height: 26px;
+        line-height: 26px;
+        color: #101010;
+        font-size: 18px;
+      }
+    }
+    li + li {
+      margin-top: 15px;
+    }
+  }
+}
+//待审核
+.task_2{
+  /*进行中*/
+  .border {
+    border: 1px solid #E6E6E6;
+  }
+
+  .relesase {
+    border-top: 4px solid #2FB4D0 !important;
+  }
+
+  .dt-right {
+    float: right;
+    font-size: 14px;
+  }
+
+  .relesase-fz {
+    color: #2fb4d0;
+    font-size: 14px;
+  }
+
+  ul {
+    margin-top: 18px;
+  }
+
+  li {
+    margin: 0 auto;
+    height: 120px;
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: left;
+    img {
+      float: left;
+      width: 120px;
+      height: 120px;
+      margin-right: 18px;
+    }
+    .apply, .underway-number, .achieve {
+      margin-left: 12px;
+      margin-right: 25px;
+    }
+    .sort {
+      color: rgba(16, 16, 16, 1);
+      font-size: 18px;
+    }
+    dt {
+      height: 26px;
+      line-height: 26px;
+      color: #101010;
+      font-size: 18px;
+    }
+  }
+
+  li + li {
+    margin-top: 15px;
+  }
+}
+
+//已拨回
+.task_3{
+  .dt-right {
+    float: right;
+    font-size: 14px;
+  }
+
+  .over {
+    border-top: 4px solid #909399 !important;
+  }
+
+  .over-fz {
+    color: #909399;
+  }
+
+  .cause {
+    color: red;
+    font-size: 14px;
+  }
+
+  .border {
+    border: 1px solid #E6E6E6;
+  }
+
+  ul {
+    margin-top: 18px;
+  }
+
+  li {
+    margin: 0 auto;
+    height: 120px;
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: left;
+    img {
+      float: left;
+      width: 120px;
+      height: 120px;
+      margin-right: 18px;
+    }
+    .apply, .underway-number, .achieve {
+      margin-left: 12px;
+      margin-right: 25px;
+    }
+    dd {
+      margin-top: 23px;
+    }
+    .el-button {
+      display: inline-block;
+      padding: 0;
+      border-radius: 4px;
+      color: rgba(16, 16, 16, 1);
+      font-size: 14px;
+      text-align: center;
+      border: 1px solid rgba(187, 187, 187, 1);
+    }
+    .el-button + .el-button {
+      margin-left: 25px;
+    }
+    dt {
+      height: 26px;
+      line-height: 26px;
+      color: #101010;
+      font-size: 18px;
+    }
+  }
+
+  li + li {
+    margin-top: 15px;
+  }
+}
+
+//待支付
+.task_4{
+  .border {
+    border: 1px solid #E6E6E6;
+    border-top: 4px solid #409eff;
+  }
+
+  ul {
+    margin-top: 18px;
+  }
+
+  .dt-right {
+    float: right;
+    font-size: 14px;
+  }
+
+  .over-fz {
+    color: #409eff;
+  }
+
+  li {
+    margin: 0 auto;
+    height: 120px;
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    text-align: left;
+    img {
+      float: left;
+      width: 120px;
+      height: 120px;
+      margin-right: 18px;
+    }
+
+    .el-button {
+      margin-top: 51px;
+      display: inline-block;
+      padding: 0;
+      border-radius: 4px;
+      color: rgba(16, 16, 16, 1);
+      font-size: 14px;
+      text-align: center;
+      border: 1px solid rgba(187, 187, 187, 1);
+    }
+    .apply, .underway-number, .achieve {
+      margin-left: 12px;
+      margin-right: 25px;
+    }
+    .sort {
+      color: rgba(16, 16, 16, 1);
+      font-size: 18px;
+    }
+    dt {
+      height: 26px;
+      line-height: 26px;
+      color: #101010;
+      font-size: 18px;
+    }
+  }
+
+  li + li {
+    margin-top: 15px;
+  }
+}
+
+.task_5{
+  h2{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color: #909399;
+  }
+  .el-pagination {
+    margin-top: 130px;
+    text-align: center;
+  }
+  /*进行中*/
+  .underway-fz {
+    color: #67C23A;
+  }
+
+  .full-fz {
+    color: #E51C23;
+  }
+
+
+
+  .dt-right {
+    float: right;
+    font-size: 14px;
+  }
+
+  .border {
+    border: 1px solid #E6E6E6;
+    border-top: 4px solid #409eff;
+  }
+
+  .ul {
+    margin-top: 18px;
+    li {
+      margin: 0 auto;
+      height: 120px;
+      padding: 13px 20px;
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+      text-align: left;
+      img {
+        float: left;
+        width: 120px;
+        height: 120px;
+        margin-right: 18px;
+      }
+      .apply, .underway-number, .achieve {
+        margin-left: 12px;
+        margin-right: 25px;
+      }
+      dd {
+        margin-top: 23px;
+        font-size: 14px;
+        .el-button {
+          display: inline-block;
+          padding: 0;
+          border-radius: 4px;
+          color: rgba(16, 16, 16, 1);
+          font-size: 14px;
+          text-align: center;
+          border: 1px solid rgba(187, 187, 187, 1);
+        }
+        .el-button + .el-button {
+          margin-left: 25px;
+        }
+        .last-botton {
+          width: 104px;
+        }
+      }
+      dt {
+        height: 26px;
+        line-height: 26px;
+        color: #101010;
+        font-size: 18px;
+      }
+    }
+    li + li {
+      margin-top: 15px;
+    }
+  }
+  .status_bottom{
+    margin-top: 38px;
+    display: inline-block;
+    padding: 0;
+    border-radius: 4px;
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid rgba(187, 187, 187, 1);
+  }
+  .task__4{
+    dd{
+      margin-top: 60px !important;
+    }
+    .over-fz {
+      color: #409eff;
+    }
+  }
+}
+
+.task__details{
+  background-color: #fff;
+  padding: 20px;
+  .el-breadcrumb{
+    display: block;
+    padding-bottom: 10px;
+    border-bottom:1px solid #e4e7ed ;
+    line-height: 30px;
+  }
+  h5{
+    margin-top: 17px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 12px;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  .catalog{
+    vertical-align: top;
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  .images{
+    vertical-align: top;
+  }
+  .mt20{
+    margin-top: 20px;
+    overflow: hidden;
+    span{
+      dispaly: block;
+      float: left;
+    }
+    .tip-number{
+      //display: inline-block;
+      width: 600px;
+      height: auto !important;
+      overflow: hidden;
+    }
+  }
+  .task-details{
+    //display: inline-block;
+    .task-details-fz{
+      display: block;
+    }
+    .task-details-img{
+      //display: inline-block;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+    img{
+      width: 94px;
+      height: auto;
+    }
+  }
+  .width424{
+    width: 424px;
+    //display: inline-block;
+    line-height: 25px;
+  }
+  .classify{
+    margin-top: 20px;
+  }
+  .master{
+    margin-top: 20px;
+    img{
+      width: 104px;
+    }
+  }
+}
+.task__details .details{
+  height: auto;
+  line-height: 40px;
+}
+.master{
+  height: auto;
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+.tip-number{
+  //display: inline !important;
+
+}
+.task__details .mt20{
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+

@@ -1,0 +1,359 @@
+.wraper {
+	width: 891px;
+	margin: 0 auto;
+	/*padding-left:19px;
+	padding-right: 31px;*/
+}
+
+.publish-task-top {
+	width: 844px;
+	/*height: 54px;*/
+	line-height: 54px;
+	font-size: 14px;
+	color: rgba(16, 16, 16, 1);
+	border-bottom: 1px solid #e4e7ed;
+	margin-left: 19px;
+}
+
+.drawMoney {
+	margin-left: 19px;
+	margin-top: 15px;
+	padding-top: 10px;
+  padding-bottom: 10px;;
+	width: 844px;
+	height: 65px;
+	background-color: #fafafa;
+}
+
+.money-num,
+.el-icon-warning {
+	display: block;
+	float: left;
+	margin-top: 15px;
+}
+
+.money-num {
+	margin-left: 32px;
+}
+
+.el-icon-warning {
+	margin-left: 30px;
+	margin-right: 235px;
+	color: #4EA8E1;
+}
+
+.lookdetail {
+	margin-left: 5px;
+}
+
+.num-bottom {
+	float: left;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+
+.figure {
+	line-height: 32px;
+	color: rgba(229, 28, 35, 1);
+	font-size: 22px;
+	font-family: Roboto;
+	margin-left: 85px;
+	font-weight: bold;
+}
+
+.btn {
+	width: 80px;
+	height: 28px;
+	margin-left: 30px;
+	background: #fff;
+	border: 1px solid #e4e7ed;
+	border-radius: 3px;
+}
+
+.btn+.btn {
+	margin-left: 30px;
+}
+
+.get-m {
+	color: rgba(16, 16, 16, 1);
+	font-size: 14px;
+	font-family: Roboto;
+	margin-left: 120px;
+	font-weight: bold;
+	line-height: 65px;
+}
+
+.yuan {
+	color: rgba(16, 16, 16, 1);
+	font-size: 10px;
+	font-family: Roboto;
+	margin-left: 8px;
+}
+
+.table_tabs {
+	width: 844px;
+	margin-left: 19px;
+	margin-top:15px;
+}
+
+.table_tabs>>>.el-pagination {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.moneydata {
+	width: 844px;
+	margin-left: 19px;
+	margin-top: 8px;
+	border-top: 1px solid #e4e7ed;
+}
+
+.data-con {
+	width: 100%;
+	height: 112px;
+	background: #F4F4F4;
+	margin-top: 8px;
+}
+
+.sele {
+	float: left;
+	font-size: 14px;
+	color: #101010;
+	margin: 20px 50px 22px 10px;
+}
+
+.sele>>>.el-input__inner {
+	width: 129px;
+	height: 28px;
+	margin-left: 15px;
+}
+
+.bottom {
+	float: left;
+	margin-left: 20px;
+}
+.num-bottom>{
+	line-height:50px;
+}
+.num-bottom>>>.el-dialog {
+	padding: 0;
+	width: 651px;
+	height: 516px;
+	border: 1px solid #e4e7ed;
+}
+
+.num-bottom>>>.el-dialog__header {
+	text-align: center;
+	font-size: 18px;
+}
+
+.num-bottom>>>.el-input {
+	float: left;
+}
+
+.num-bottom>>>.el-form-item__label {
+	text-align: center;
+	line-height: 30px;
+	padding: 0;
+}
+
+.num-bottom>>>.el-input__inner {
+	width: 320px;
+	height: 36px;
+	float: left;
+}
+
+.num-bottom>>>.el-button {
+	padding: 10px 20px;
+	/*width: 98px;*/
+	/*height: 30px;*/
+	margin-left: 23px;
+	color: #101010;
+}
+
+.num-bottom>>>.el-button--text {
+	/*width: 80px;*/
+	/*height: 28px;*/
+  padding: 10px 20px ;
+	margin-left: 58px;
+	background: #fff;
+	border: 1px solid #e4e7ed;
+	border-radius: 3px;
+}
+
+.num-bottom>>>.el-dialog__footer {
+	float: left;
+	margin-top: 10px;
+	margin-left: 220px;
+	height: 50px;
+}
+
+.num-bottom>>>.payTitle {
+	display: block;
+	float: left;
+	width: 400px;
+	margin-left: 20px
+}
+
+.num-bottom>>>.payClass {
+	float: left;
+	width: 400px;
+	margin-left: 110px;
+}
+.types>img{
+	width:100%;
+
+}
+.num-bottom>>>.types {
+	margin-left: 30px;
+	display:block;
+	float:left;
+	width:100px;
+	height:65px;
+	margin-bottom:15px;
+}
+
+.num-bottom>>>.company {
+	float: left;
+	width: 440px;
+	height: 110px;
+	margin-left: 74px;
+}
+
+.num-bottom>>>.comTxt {
+	height: 22px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.num-bottom>>>.water {
+	height: 30px;
+	width: 400px;
+}
+.wechatM{
+	width:100%;
+	height:300px;
+	margin-bottom:10px;
+
+}
+.imgs{
+	width:250px;
+	height:250px;
+	margin-left:120px;
+}
+.imgs>img{
+	width:100%;
+}
+.moneyTxt{
+	width:100%;
+	text-align: center;
+	margin-top:30px;
+	font-size:18px;
+}
+.table_tabs{
+		height:auto;
+	}
+	.table_tabs>>>.cell{
+		height: 20px;
+	}
+	.water{
+		width: 400px;
+		height: 50px;
+		float: left;
+		margin-top:10px;
+	}
+	.waterid{
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		float: left;
+	}
+	.water>>>.el-input__inner{
+		float: right;
+		width: 340px;
+	}
+	.water>>>.el-input{
+		float: right;
+		width: 320px;
+		padding: 0;
+	}
+
+	.water >>>.redstar{
+	color: red;
+	font-size: 24px;
+	line-height: 40px;
+	display: block;
+	float: left;
+	margin-right: 5px
+	}
+	.shopmsg{
+		width:100%;
+		height:40px;
+		/*border:1px solid #f00;*/
+	}
+	.infos{
+margin-bottom:10px;
+		height:40px;
+		line-height: 40px;
+		float: left;
+    margin-right:15px;
+	}
+	.infos>span{
+		display: block;
+		float: left;
+    width:90px;
+    text-align: right;
+		/*margin-left:12px;*/
+	}
+	.infos>>>.el-input{
+		float:left;
+		display: block;
+		width:200px;
+		height:36px;
+		margin-left:10px;
+	}
+	.infos>>>.el-input__inner{
+		height:36px;
+
+	}
+	.infos>>>.el-button{
+		padding:10px 20px;
+		/*line-height: 0;*/
+		margin-left:30px;
+	}
+.table_tabs>>>.cell{
+		height:28px;
+	}
+.forms_box{
+  margin-top:20px;
+}
+.forms_box>>>.el-input{
+  width:400px;
+}
+.forms_box>>>.el-input__inner{
+  width:400px;
+}
+.forms_box>>>.el-button{
+  margin-top:20px;
+  margin-left:80px;
+}
+/*el-date-editor el-input el-input--prefix el-input--suffix el-date-editor--datetime*/
+.forms_box>>>.el-date-editor {
+  width:400px !important;
+}
+.forms_box>>>.el-date-editor--datetime{
+  width:400px !important;
+}
+.shopDraw{
+  height:40px;
+  padding:20px 0;
+}
+.el-menu-item:focus, .el-menu-item:hover{
+  background: transparent !important;
+}
+/*.loadimg{*/
+  /*width:150px;*/
+  /*height:171px;*/
+  /*overflow:hidden;*/
+/*}*/

@@ -1,0 +1,33 @@
+.fr{
+  float: right;
+}
+.fl{
+  float: left;
+}
+.block {
+  text-align: center;
+  margin: 0 auto;
+}
+.el-pagination{
+  text-align:center;
+  margin-top:40px !important;
+}
+.block .el-pagination {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.el-table .cell{
+  line-height: 28px !important;
+}
+.cell .el-button{
+  color:#409eff;
+  font-size:14px;
+  line-height: 4px !important;
+}
+.loadimg {
+  width: 300px;
+  height: 171px;
+  overflow: hidden;
+}
+

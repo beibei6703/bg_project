@@ -1,0 +1,82 @@
+.user_one{
+		width:100%;
+
+	}
+	.user_one{
+		width:100%;
+		display: flex;
+		align-content: center;
+		margin-bottom:25px;
+
+	}
+	.user_one>span{
+		display:block;
+		float: left;
+	}
+	.margin_L{
+		margin-left:30px;
+		/*width:200px;*/
+		line-height: 18px;
+	}
+	.user_title{
+		display:block;
+		float: left;
+		width:100px;
+		text-align: right;
+	}
+	.title_L{
+		margin-left:165px;
+	}
+	.title_Ln{
+		width:150px;
+		margin-left:152px;
+	}
+	.top{
+		margin-top:8px;
+	}
+	.user_one>img{
+		width:104px;
+		height:84px;
+		margin-left:15px;
+		float: left;
+	}
+	.right_info{
+		margin-left:260px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+
+	}
+	.right_info>p{
+		width:300px;
+	}
+	.one-bottom{
+		margin-top:10px;
+		margin-bottom:40px;
+	}
+	.border{
+		border-bottom: 2px solid #e4e7ed;
+		padding-bottom:25px;
+	}
+	.user_one>>>.el-input{
+		margin-left:20px;
+		margin-top:0;
+    width:368px;
+	}
+	.user_one>>>.el-input__inner{
+		/*height:30px;*/
+    width:368px;
+	}
+	.btns{
+		padding-top:15px;
+		width:100%;
+		text-align: center;
+	}
+	.btns>>>.el-button{
+
+		padding:10px 20px;
+	}
+	.widtnCon{
+		width:468px;
+		line-height:30px;
+	}

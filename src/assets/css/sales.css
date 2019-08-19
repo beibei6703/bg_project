@@ -1,0 +1,250 @@
+	.wraper {
+		width: 844px;
+		margin: 0 auto;
+	}
+
+	.head_sale {
+		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		border-bottom: 1px solid #e4e7ed;
+		margin-bottom: 16px;
+	}
+
+	.addCon {
+		padding-left: 15px;
+		font-size: 14px;
+	}
+
+	.addCon>i {
+		margin-right: 10px;
+	}
+
+	.el-icon-circle-plus {
+		font-size: 16px;
+	}
+
+	.tit_info {
+		height: 20px;
+		line-height: 23px;
+		border-left: 3px solid #f00;
+		padding-left: 16px;
+		margin: 16px 0 22px 15px;
+	}
+
+	.con_banner {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: start;
+		align-content: space-around;
+	}
+
+	.detail_banner {
+		width: 379px;
+		height: 160px;
+		border: 1px solid #e4e7ed;
+		margin-bottom: 20px;
+    margin-right:20px;
+	}
+
+	.left_banner {
+		width: 120px;
+		height: 100%;
+		float: left;
+		text-align: center;
+	}
+
+	.left_banner>img {
+		width: 78px;
+		height: 77px;
+		margin-top: 23px;
+		margin-bottom: 18px;
+	}
+
+	.left_banner>>>.el-button {
+    padding:10px 20px;
+		/*width: 80px;*/
+		/*height: 30px;*/
+		line-height: 0;
+	}
+
+	.right_banner {
+		float: left;
+		width: 253px;
+		height: 100%;
+	}
+
+	.one_detail {
+		width: 100%;
+		margin-top: 25px;
+	}
+
+	.one_detail>span {
+		display: block;
+		float: left;
+		height: auto;
+	}
+
+	.titles {
+		margin-top: 13px;
+		width: 75px;
+		text-align: right;
+	}
+
+	.tops {
+		margin-top: 8px;
+	}
+
+	.describe {
+		width: 159px;
+		word-break: break-all;
+		margin-left: 15px;
+		line-height: 18px;
+	}
+
+	.regularon {
+		float: left;
+		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		padding-left: 15px;
+	}
+
+	.regularon>span {
+		width: 3px;
+		display: block;
+		float: left;
+		margin-right: 8px;
+		background: #FF0000;
+		height: 20px;
+		margin-top: 12px;
+	}
+
+	.detail_set {
+		width: 100%;
+		height: auto;
+	}
+
+	.detail_list {
+		width: 379px;
+		height: 314px;
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		border: 1px solid #e4e7ed;
+	}
+
+	.list_bottom {
+		margin-top: 30px;
+		height: 54px;
+	}
+
+	.list_bottom>img {
+		width: 57px;
+		height: 52px;
+		float: left;
+	}
+
+	.list_bottom>span {
+		margin-left: 20px;
+	}
+
+	.leftSpan {
+		display: block;
+		margin-right: 20px;
+		float: left;
+		width: 80px;
+		height: 54px;
+		line-height: 54px;
+		text-align: right;
+	}
+
+	.rightSpan {
+		display: block;
+		float: left;
+		width: 107px;
+		color: #AEAEAE;
+		line-height: 16px;
+		font-size: 10px;
+		margin-left: 25px;
+		margin-top: 15px;
+	}
+
+	.head_one {
+		margin-top: 8px;
+		height: 20px;
+		line-height: 20px;
+		padding: 0 15px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.head_one>>>.el-button {
+		line-height: 0;
+		border: 0;
+	}
+
+	.pTxt {
+		width: 100%;
+		height: 33px;
+		line-height: 33px;
+		margin-top: 20px;
+	}
+
+	.pTxt+.pTxt {
+		margin-top: 15px;
+	}
+
+	.pTxt>>>.el-input {
+		width: 178px;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.pTxt>>>.el-input__inner {
+		width: 178px;
+		height: 30px;
+	}
+
+	.pTxt>.leftSpan {
+		height: 33px;
+		line-height: 33px;
+	}
+
+	.lastSpan {
+		display: block;
+		float: left;
+		margin-left: 15px;
+		line-height: 33px;
+	}
+	.pTxt_dialog>>>.el-textarea{
+		width:208px;
+		float: left;
+		margin-left:10px;
+	}
+	.pTxt_dialog>>>.el-textarea__inner{
+		width:208px;
+		/*height:30px;*/
+		/*text-overflow: ellipsis;
+		overflow: hidden;*/
+
+	}
+	.pTxt>>>.el-textarea{
+		width:208px;
+		float: left;
+		margin-left:10px;
+	}
+	.pTxt>>>.el-textarea__inner{
+		width:208px;
+		height:30px;
+	}
+	.btns{
+   	margin-top:15px;
+   	text-align: center;
+   }
+  .btns>>>.el-button{
+  	padding: 10px 20px;
+  	line-height: 0;
+  	margin-left:20px;
+  }
